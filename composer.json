@@ -1,0 +1,11 @@
+{
+    "name": "safi/acme-widget",
+    "description": "Test project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Safi\\AcmeWidget\\": "src/"
+        }
+    },
+    "require": {}
+}

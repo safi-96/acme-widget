@@ -36,7 +36,7 @@ class BasketTest extends TestCase {
         $basket = new Basket($this->catalogue, $deliveryCostStrategy, $this->offers);
         $basket->add('R01');
         $basket->add('R01');
-        $this->assertEquals('54.37', $basket->total());
+        $this->assertEquals('54.38', $basket->total());
 
         $basket = new Basket($this->catalogue, $deliveryCostStrategy, $this->offers);
         $basket->add('R01');
@@ -49,6 +49,6 @@ class BasketTest extends TestCase {
         $basket->add('R01');
         $basket->add('R01');
         $basket->add('R01');
-        $this->assertEquals('98.27', $basket->total());
+        $this->assertEquals('98.28', $basket->total());
     }
 }

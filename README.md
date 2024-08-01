@@ -35,8 +35,7 @@ This is a proof of concept for Acme Widget Co's new sales system. The system inc
         Basket::total() - Returns the total cost of the basket.
     ```
 
-
-7. Example
+## Example
 
     ```
         <?php
